@@ -1,23 +1,37 @@
 /* Place CSS styles here */
 body {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 32px;
+    font-size: 36px;
     text-align: left;
     color: #000000;
     background-color: #f4f4f4;
     margin: 20px;
     padding: 8px;
+    display: inline;
 }
 
 h1 {
-    font-size: 72px;
-    text-align: center;
-    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 78px;
+    text-align: left;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+    margin: 0px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+    text-align: right;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+    margin: 0px;
 }
 
 .image-container {
-    width: 10px;
+    width: 50%;
     height: auto;
-    display: flex;
-    margin: 50px;
 }
