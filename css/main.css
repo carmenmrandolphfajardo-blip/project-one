@@ -1,13 +1,11 @@
 /* Place CSS styles here */
 body {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 36px;
+    font-size: 24px;
     text-align: left;
     color: #000000;
-    background-color: #f4f4f4;
     margin: 20px;
     padding: 8px;
-    display: inline;
 }
 
 h1 {
@@ -18,6 +16,7 @@ h1 {
     background-color: #000000;
     padding: 10px;
     margin: 0px;
+    display: block;
 }
 
 a {
@@ -29,9 +28,48 @@ a {
     background-color: #000000;
     padding: 10px;
     margin: 0px;
+    float: right;
 }
 
-.image-container {
-    width: 50%;
+a:hover {
+    color: #fef252;
+    outline: 2px solid #fef252;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    text-align: center;
+    color: #000000;
+    margin: 20px;
+    padding: 8px;
+    display: block;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    margin: 20px;
+    padding: 8px;
+    display: block;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 800px;
     height: auto;
+}
+
+form {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    margin: 20px;
+    padding: 8px;
+    display: block;
 }
