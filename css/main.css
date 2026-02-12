@@ -6,11 +6,25 @@ body {
     color: #000000;
     margin: 20px;
     padding: 8px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    text-align: center;
+    color: #000000;
+    margin: 20px;
+    padding: 8px;
+    display: block;
+}
+
+span {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 78px;
+    font-weight: 900;
     text-align: left;
     color: #ffffff;
     background-color: #000000;
@@ -36,6 +50,11 @@ a:hover {
     outline: 2px solid #fef252;
 }
 
+a:focus {
+    color: #7a52fe;
+    outline: 2px solid #7a52fe;
+}
+
 .back-arrow img {
     display: block;
     width: 50px;
@@ -48,6 +67,11 @@ a:hover {
     background-color: transparent;
     margin: 10px;
     float: left;
+}
+
+.back-arrow a:hover {
+    color: #7a52fe;
+    outline: 2px solid #7a52fe;
 }
 
 h2 {
@@ -88,4 +112,25 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.submit-button {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    color: #fef252;
+    outline: 2px solid #fef252;
+}
+
+.submit-button:focus {
+    color: #7a52fe;
+    outline: 2px solid #7a52fe;
 }
